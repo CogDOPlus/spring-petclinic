@@ -11,9 +11,8 @@
 <body>
 <div class="container">
     <jsp:include page="fragments/bodyHeader.jsp"/>
-    <h2><fmt:message key="welcome"/></h2>
+    <h2><fmt:message key="welcome"/> to Docker PoC demo version 7</h2>
     <spring:url value="/resources/images/pets.png" htmlEscape="true" var="petsImage"/>
-    test version 6 
     <img src="${petsImage}"/>
 
     <jsp:include page="fragments/footer.jsp"/>
